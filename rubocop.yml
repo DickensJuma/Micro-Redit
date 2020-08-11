@@ -8,7 +8,7 @@ AllCops:
     - "node_modules/**/*"
 
   DisplayCopNames: true
-
+  
 Layout/LineLength:
   Max: 120
 Metrics/MethodLength:
@@ -56,4 +56,6 @@ Style/HashEachMethods:
 Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
+  Enabled: false
+Style/ClassAndModuleChildren:
   Enabled: false

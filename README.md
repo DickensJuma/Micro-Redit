@@ -6,7 +6,11 @@
 
 ## Project Description
 
+The goal of this project is build a lite version of Reddit and focus on working with Active Record to create our database that has three tables; users, posts and comments. Each of these have a model where we create their associations and validations for their data.
+
 ## Screenshots
+
+![image](https://user-images.githubusercontent.com/29974825/89903978-083c6b00-dbf1-11ea-94c4-9adb8efa2cf4.png)
 
 # Getting Started 🚀
 
@@ -18,19 +22,24 @@ From your command line, first clone the project:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/
+$ git clone https://github.com/DickensJuma/Micro-Redit
 
 # Go into the project folder
 $ code Micro-Redit
 
-# rub bundle install to get the gems
+# run bundle install to get the gems
 $ bundle install
 
-# STart the server 
-$ rails s 
+#Run the migrations
+$ rake db:migrate
+
+# To start the rails console, run
+$ rails c
 ```
 
-## CONTRIBUTOR
+You can create your own data from here
+
+## CONTRIBUTORS
 
 👤 **Paul Ogolla**
 
@@ -40,10 +49,9 @@ $ rails s
 
 👤 **Dickens Juma**
 
-- LinkedIn: [Dickens Juma](https://www.linkedin.com/in/dickens-juma/) 
+- LinkedIn: [Dickens Juma](https://www.linkedin.com/in/dickens-juma/)
 - GitHub: [@DickensJuma](https://github.com/DickensJuma)
 - Twitter: [@juma_dickens](https://twitter.com/juma_dickens)
-
 
 ## Acknowledgments
 
