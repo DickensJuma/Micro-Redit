@@ -40,9 +40,10 @@ $ rails s
 
 👤 **Dickens Juma**
 
-- Github: [](https://github.com/)
-- Twitter: [](https://twitter.com/)
-- Linkedin: [](https://linkedin.com/in/)
+- LinkedIn: [Dickens Juma](https://www.linkedin.com/in/dickens-juma/) 
+- GitHub: [@DickensJuma](https://github.com/DickensJuma)
+- Twitter: [@juma_dickens](https://twitter.com/juma_dickens)
+
 
 ## Acknowledgments
 
