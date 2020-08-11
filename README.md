@@ -1,24 +1,55 @@
-# README
+# Miro-Redit
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Built With
 
-Things you may want to cover:
+- Ruby on Rails
 
-* Ruby version
+## Project Description
 
-* System dependencies
+## Screenshots
 
-* Configuration
+# Getting Started 🚀
 
-* Database creation
+These instructions will get you a copy of the project up and running on your local machine.
 
-* Database initialization
+## How To Use 🔧
 
-* How to run the test suite
+From your command line, first clone the project:
 
-* Services (job queues, cache servers, search engines, etc.)
+```bash
+# Clone this repository
+$ git clone https://github.com/
 
-* Deployment instructions
+# Go into the project folder
+$ code Micro-Redit
 
-* ...
+# rub bundle install to get the gems
+$ bundle install
+
+# STart the server 
+$ rails s 
+```
+
+## CONTRIBUTOR
+
+👤 **Paul Ogolla**
+
+- Github: [@paulzay](https://github.com/paulzay)
+- Twitter: [@_paulzay_](https://twitter.com/_paulzay_)
+- Linkedin: [Paul Ogolla](https://linkedin.com/in/paulogolla)
+
+👤 **Dickens Juma**
+
+- Github: [](https://github.com/)
+- Twitter: [](https://twitter.com/)
+- Linkedin: [](https://linkedin.com/in/)
+
+## Acknowledgments
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
