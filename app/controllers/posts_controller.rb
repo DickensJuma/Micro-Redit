@@ -1,23 +1,35 @@
+# frozen_string_literal: true
+
 class PostsController < ApplicationController
-	def index
-		@posts = Post.all
-	end
+  def index
+    @posts = Post.all
+  end
 
-	def show
-		@post = Post.find(params[:id])
-	end
+  def show
+    @post = Post.find(params[:id])
+    @comment = Comment.new
+    @comment.post_id = @post.id
+  end
 
-	def create
-		@post = Post.new
-		@post.title = params[:article][:title]
-		@article.save
-	end
+  def create
+    @post = Post.new(post_params)
+    @post.save
 
-	def destroy
+    redirect_to post_path(@post)
+  end
 
-	end
+  def destroy
+    @post = Post.find(params[:id])
+    @post.destroy
+  end
 
-	def edit
+  def edit
+    @post = Post.find(params[:id])
+  end
 
-	end
+  def update
+    @post = Post.find(params[:id])
+    @post.update(post_params)
+    redirect_to post_path(@post)
+  end
 end
