@@ -1,8 +1,7 @@
-<h1>Create a New Post</h1>
 
-<%= form_for Post.new do |f| %>
+<%= form_for [@posts] do |f| %>
   <ul>
-  <% Post.new.errors.full_messages.each do |error| %>
+  <% @post.errors.full_messages.each do |error| %>
     <li><%= error %></li>
   <% end %>
   </ul>
@@ -17,4 +16,4 @@
   <p>
     <%= f.submit %>
   </p>
-<% end %>   
+<% end %>
